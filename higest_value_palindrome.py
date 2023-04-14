@@ -87,7 +87,7 @@ def higest_value_palindrome(s, n, k):
     # if the lenght of the string is odd
     else:
         if k < min_odd:
-            print("-1")
+            return "-1"
         else:
             changes = 0
             for i in range(n // 2):
